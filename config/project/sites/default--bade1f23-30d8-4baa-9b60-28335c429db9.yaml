@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: true
+handle: default
+hasUrls: true
+language: en-AU
+name: 'Gatsby Craft'
+primary: true
+siteGroup: 79f533e3-784e-432a-a696-73d146fc5f45
+sortOrder: 1

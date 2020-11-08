@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: blog
+name: Blog
+previewTargets:
+  1:
+    __assoc__:
+      -
+        - label
+        - Gatsby
+      -
+        - urlFormat
+        - 'http://localhost:8000/blog/{slug}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bade1f23-30d8-4baa-9b60-28335c429db9:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'blog/{slug}'
+type: channel

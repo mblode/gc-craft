@@ -1,0 +1,37 @@
+dateModified: 1604722163
+email:
+  fromEmail: m@blode.co
+  fromName: 'Gatsby Craft'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  gatsby-helper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      previewServerUrl: 'http://localhost:8000'
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.9
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: pro
+  live: true
+  name: 'Gatsby Craft'
+  retryDuration: null
+  schemaVersion: 3.5.13
+  timeZone: Australia/Melbourne
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

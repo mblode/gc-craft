@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  1:
+    __assoc__:
+      -
+        - label
+        - Gatsby
+      -
+        - urlFormat
+        - 'http://localhost:8000'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bade1f23-30d8-4baa-9b60-28335c429db9:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: homepage
+type: single

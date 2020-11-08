@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: d7ed5439-4721-480b-8a96-588323316ecc
+handle: generalContent
+instructions: ''
+name: 'General Content'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_generalcontent}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

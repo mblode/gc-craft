@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: pages
+name: Pages
+previewTargets:
+  1:
+    __assoc__:
+      -
+        - label
+        - Gatsby
+      -
+        - urlFormat
+        - 'http://localhost:8000/{parent.uri}/{slug}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bade1f23-30d8-4baa-9b60-28335c429db9:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: 82b53550-f652-46c7-8b15-21f79e1d0cbb
+type: structure

@@ -1,0 +1,128 @@
+field: e20f6c1d-5bf6-4f9d-914e-8682bb507902
+fieldLayouts:
+  29d6379a-bd9d-4b26-a552-0e771761f788:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: eeb6ac84-9f49-4f20-bf7e-7dc6a401a07d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 025c6a86-c07f-4228-a717-b2dd96b867b0
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  025c6a86-c07f-4228-a717-b2dd96b867b0:
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: ''
+    name: Size
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - h1
+            -
+              - value
+              - h1
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - h2
+            -
+              - value
+              - h2
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - h3
+            -
+              - value
+              - h3
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - h4
+            -
+              - value
+              - h4
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - h5
+            -
+              - value
+              - h5
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - h6
+            -
+              - value
+              - h6
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  eeb6ac84-9f49-4f20-bf7e-7dc6a401a07d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: heading
+name: Heading
+sortOrder: 1
